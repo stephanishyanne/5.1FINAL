@@ -1,0 +1,36 @@
+<!--Stephani Lucas-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Below are the links to the JavaScript and CSS files that make the functions work, and add a bit of style to the webpage-->
+    <script src="strings.js"></script>
+    <link rel="stylesheet" href = "strings.css">  
+    <!-- The title shows up next to the site favicon-->
+    <title>palindromes</title>
+</head>
+<nav>
+<ul>
+    <li><a href="table.html">home</a></li>
+    <li><a href="boards.html">info</a></li>
+    <li><a href="index.html">index</a></li>
+    <li><a href="name.html">name</a></li>
+    <li><a href="buttons.html">buttons</a></li>
+    <li><a href="audio.html">audio</a></li>
+</ul>
+</nav>
+<body>
+    <!-- This is the header that comes before the form palindrome checker-->
+   <h1>Is it a palindrome?</h1> 
+<!--This ID is for the JavaScript function... When the form is submitted, Java uses inner HTML to update this portion to match the user's input -->
+   <p id = "updatedstring"></p>
+<!-- This is the form! It is one text box for a user input that has the function strings() that links to JavaScript after form submission-->
+   <form id = "submitform" onsubmit="return false">
+    Type here: <input type="text" id="firststring"/>
+    <input type="submit" onclick="strings();"/>
+</form>
+</body>
+</html>

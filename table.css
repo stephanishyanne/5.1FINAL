@@ -1,0 +1,42 @@
+/* table.css */
+nav {
+    background-color: lightgrey; /* Set the background color of the navigation bar */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: grey;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  table#data {
+    margin: 0 auto; /* Center the table horizontally */
+    margin-top: 20px; /* Adjust the top margin if needed */
+  }
+  
+body{
+    text-align: center;
+    background-color: grey;
+}
+
+table{
+    text-align: right;
+    align-items: right;
+}
+
+nav ul li a:active,
+nav ul li a:hover {
+  background: pink;
+  transition: 0.5s;
+}

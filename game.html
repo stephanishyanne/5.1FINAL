@@ -1,0 +1,50 @@
+<!--Stephani Lucas-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <!--All the stuff above is prefilled HTML coding. The title is the text that pops up on the tab of the website-->
+    <title>CRAPS!</title>
+</head>
+<!--The two links here are for my Java Script coding that gives substance to the functions, and my CSS coding that makes the page look a bit more interesting than without-->
+<link rel="stylesheet" href="game.css">
+<script src="game.js"></script>
+<body>
+    <nav>
+        <h1>
+        <ul>
+            <li><a href="table.html">home</a></li>
+            <li><a href="boards.html">info</a></li>
+            <li><a href="index.html">index</a></li>
+            <li><a href="name.html">name</a></li>
+            <li><a href="buttons.html">buttons</a></li>
+            <li><a href="strings.html">strings</a></li>
+            <li><a href="audio.html">audio</a></li>
+        </ul>
+        </h1>
+    </nav>
+</body>
+<body>
+    <p>
+        Ready to play?
+    <br>
+    <br>
+    <!--Below is my firt button that has the most weight in JS, the update() function has all of the radomization coding, as well as the inner HTML that allows the user to know what the game results are-->
+    <button onclick="update()">Push to Play</button>
+    <br>
+    <br>
+    <!--The "div id" are like placeholders. This is where the numbers and game result show up on the page-->
+    <div id="num1">dice one:</div>
+    <div id="num2">dice two:</div>
+    <div id="result"></div>
+    <br>
+    <br>
+    <!--This is button number two! It gives an alert through JaveScript that gives the user the game rules-->
+    <button onclick="newAlert()"> CRAPS rules </button>
+    <br>
+    <br>
+</p>
+</body>
+</html>

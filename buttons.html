@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttons.css">
+    <title>meme mover</title>
+   <!--links the java script code to the html-->
+    <script src="buttons.js"></script>
+</head>
+
+<h1>If you can't move mountains, move memes instead!</h1>
+<nav>
+<ul>
+    <li><a href="table.html">home</a></li>
+    <li><a href="boards.html">info</a></li>
+    <li><a href="index.html">index</a></li>
+    <li><a href="name.html">name</a></li>
+    <li><a href="strings.html">strings</a></li>
+    <li><a href="audio.html">audio</a></li>
+</ul>
+</nav>
+<!--this is like "internal CSS"; makes the page pretty inside of HTML-->
+<style>
+    #kitty {
+        position: absolute;
+        top: -200;
+        left: 500;
+        }
+        body{
+            background-color: black;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+
+</style>
+
+<body>
+    <!-- Start and stop buttons to control the animation; I spent a long time frustrated because I forgot to give the buttons an ID! 
+    This meant that I was calling on the functions, but the code had no idea from where or what I was calling... important stuff! -->
+    <button id="start" onclick="start()">start</button>
+    <button id="stop" onclick="stop()">stop</button>
+</body>
+
+<h1>Kitty!</h1>
+
+<p>   
+    <!--This is my meme image!-->
+     <img id="kitty" src="kitty.jpeg"/>
+</p>
+
+</html>

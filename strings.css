@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+}
+
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+nav {
+    background-color: lightgrey; /* Set the background color of the navigation bar */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: grey;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
